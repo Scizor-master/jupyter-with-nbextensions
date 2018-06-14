@@ -1,0 +1,3 @@
+!.local/share/jupyter
+.local/share/jupyter/*
+!.local/share/jupyter/nbextensions/
