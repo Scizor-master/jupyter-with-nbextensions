@@ -1,3 +1,4 @@
 !.local/share/jupyter
 .local/share/jupyter/*
 !.local/share/jupyter/nbextensions/
+work/.ipynb_checkpoints/*

@@ -6,5 +6,5 @@ services:
             - 8888:8888
         volumes:
             - ./work:/home/jovyan/work
-            - ./.local:/home/jovyan/.local
-            - ./.jupyter/nbconfig:/home/jovyan/.jupyter/nbconfig
+            # - ./.local:/home/jovyan/.local
+            # - ./.jupyter/nbconfig:/home/jovyan/.jupyter/nbconfig

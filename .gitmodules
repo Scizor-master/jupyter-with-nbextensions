@@ -1,3 +1,0 @@
-[submodule ".local/share/jupyter"]
-	path = .local/share/jupyter
-	url = https://github.com/lambdalisue/jupyter-vim-binding
