@@ -4,4 +4,4 @@ jupyter-with-nbextensions:
         - 8888:8888
     volumes:
         - ./work:/home/jovyan/work
-        - ./.local/custom:/home/jovyan/.local/custom
+        - ./.jupyter/custom:/home/jovyan/.jupyter/custom
