@@ -3,4 +3,3 @@ work/*
 !work/sample
 work/sample/MNIST_data
 work/sample/.ipynb_checkpoints/*
-work/.ipynb_checkpoints/*
