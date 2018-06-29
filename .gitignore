@@ -1,7 +1,6 @@
 .DS_Store
-!.local/share/jupyter
-.local/share/jupyter/*
-!.local/share/jupyter/nbextensions/
-work/.ipynb_checkpoints/*
+work/*
+!work/sample
 work/sample/MNIST_data
-work/mao/data
+work/sample/.ipynb_checkpoints/*
+work/.ipynb_checkpoints/*
