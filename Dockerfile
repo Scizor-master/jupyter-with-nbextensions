@@ -4,7 +4,7 @@ MAINTAINER Tetsutaro Ueda <tueda1207@gmail.com>
 # Add 'conda-forge' to '.condarc' and lower its priority
 RUN conda config --append channels conda-forge
 
-# Install Jupyter-themes and Jupyter notebook extensions
+# Install Jupyter notebook extensions
 RUN conda install --quiet --yes \
     jupyter_contrib_nbextensions
 

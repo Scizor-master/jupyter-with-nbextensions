@@ -1,10 +1,7 @@
-version: '0.1'
-services:
-    jupyter-workplace:
-        build: .
-        ports:
-            - 8888:8888
-        volumes:
-            - ./work:/home/jovyan/work
-            - ./.local/custom:/home/jovyan/.local/custom
-            # - ./.jupyter/nbconfig:/home/jovyan/.jupyter/nbconfig
+jupyter-with-nbextensions:
+    image: scizormaster/jupyter-with-nbextensions
+    ports:
+        - 8888:8888
+    volumes:
+        - ./work:/home/jovyan/work
+        - ./.local/custom:/home/jovyan/.local/custom
